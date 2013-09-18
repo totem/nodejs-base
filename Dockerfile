@@ -4,7 +4,7 @@ RUN echo "deb http://ppa.launchpad.net/chris-lea/node.js/ubuntu raring main" > /
 RUN apt-key adv --keyserver keyserver.ubuntu.com --recv C7917B12
  
 RUN apt-get update && apt-get upgrade -y
-RUN apt-get install -y wget curl nodejs g++ make libc6-dev patch
+RUN apt-get install -y wget curl nodejs g++ make libc6-dev patch git-core
 
 RUN apt-get clean && rm -rf /var/cache/apt/archives/* /var/lib/apt/lists/*
 
