@@ -1,4 +1,4 @@
-FROM totem/ubuntu:raring
+FROM ubuntu:trusty
 
 RUN apt-get update --fix-missing && apt-get upgrade -y
 RUN apt-get install -y wget curl build-essential patch git-core openssl libssl-dev unzip ca-certificates python python-dev python-pip
