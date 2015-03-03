@@ -14,8 +14,11 @@ totem/nodejs-base
 ## Tags
 
 The following tags are available for this image:
-+ 0.10.x
-+ 0.8.x
++ 0.12.x-trusty
++ 0.12.0-trusty
++ 0.10.x-trusty
++ 0.10.29-trusty
++ 0.10.30-trusty
 
 ## Building
 
