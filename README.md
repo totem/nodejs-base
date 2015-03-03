@@ -19,6 +19,7 @@ The following tags are available for this image:
 + 0.10.x-trusty
 + 0.10.29-trusty
 + 0.10.30-trusty
++ latest (points to 0.10.x-trusty)
 
 ## Building
 
